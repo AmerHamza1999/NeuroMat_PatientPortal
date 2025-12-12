@@ -1,0 +1,99 @@
+﻿@model NeuroMat.Models.Patient
+
+@{
+    ViewData["Title"] = "Pressure Analysis";
+}
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center">
+        <h2>@Model.DisplayName</h2>
+
+        <a asp-controller="Home"
+           asp-action="Index"
+           class="btn btn-secondary">
+            Back to Dashboard
+        </a>
+    </div>
+
+    <hr />
+
+    <h4 class="mb-3">Pressure Metrics</h4>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h6 class="card-title text-center">
+                        Peak Pressure Index
+                    </h6>
+                    <canvas id="peakChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h6 class="card-title text-center">
+                        Contact Area %
+                    </h6>
+                    <canvas id="contactChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const labels = @Html.Raw(
+                System.Text.Json.JsonSerializer.Serialize(
+                        Model.PressureFrames.Select(p =>
+                                p.Timestamp.ToLocalTime().ToString("HH:mm"))
+                )
+        );
+
+    const peakData = @Html.Raw(
+                System.Text.Json.JsonSerializer.Serialize(
+                        Model.PressureFrames.Select(p => p.PeakPressureIndex)
+                )
+        );
+
+    const contactData = @Html.Raw(
+                System.Text.Json.JsonSerializer.Serialize(
+                        Model.PressureFrames.Select(p => p.ContactAreaPercent)
+                )
+        );
+
+    new Chart(document.getElementById('peakChart'), {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Peak Pressure Index',
+                data: peakData,
+                borderColor: 'red',
+                tension: 0.3,
+                fill: false
+            }]
+        }
+    });
+
+    new Chart(document.getElementById('contactChart'), {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Contact Area %',
+                data: contactData,
+                borderColor: 'blue',
+                tension: 0.3,
+                fill: false
+            }]
+        }
+    });
+</script>

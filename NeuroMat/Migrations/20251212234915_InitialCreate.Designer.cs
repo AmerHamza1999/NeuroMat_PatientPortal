@@ -12,7 +12,7 @@ using NeuroMat.Data;
 namespace NeuroMat.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20251212220625_InitialCreate")]
+    [Migration("20251212234915_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -36,11 +36,9 @@ namespace NeuroMat.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Notes")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
@@ -56,26 +54,19 @@ namespace NeuroMat.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("AlertReason")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double?>("ContactAreaPercent")
+                    b.Property<double>("ContactAreaPercent")
                         .HasColumnType("float");
-
-                    b.Property<bool>("HasAlert")
-                        .HasColumnType("bit");
 
                     b.Property<Guid>("PatientId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int?>("PeakPressureIndex")
+                    b.Property<int>("PeakPressureIndex")
                         .HasColumnType("int");
 
                     b.Property<DateTimeOffset>("Timestamp")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<byte[]>("ValuesCompressed")
+                    b.Property<byte[]>("Values")
                         .IsRequired()
                         .HasColumnType("varbinary(max)");
 
@@ -149,9 +140,7 @@ namespace NeuroMat.Migrations
                 {
                     b.HasOne("NeuroMat.Models.User", "User")
                         .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId");
 
                     b.Navigation("User");
                 });

@@ -44,8 +44,8 @@ namespace NeuroMat.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     DisplayName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Notes = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                    Notes = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -54,8 +54,7 @@ namespace NeuroMat.Migrations
                         name: "FK_Patients_User_UserId",
                         column: x => x.UserId,
                         principalTable: "User",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -65,11 +64,9 @@ namespace NeuroMat.Migrations
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     PatientId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Timestamp = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
-                    ValuesCompressed = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
-                    PeakPressureIndex = table.Column<int>(type: "int", nullable: true),
-                    ContactAreaPercent = table.Column<double>(type: "float", nullable: true),
-                    HasAlert = table.Column<bool>(type: "bit", nullable: false),
-                    AlertReason = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Values = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
+                    PeakPressureIndex = table.Column<int>(type: "int", nullable: false),
+                    ContactAreaPercent = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {

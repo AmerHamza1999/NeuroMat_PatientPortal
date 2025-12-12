@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using NeuroMat.Data;
+using NeuroMat.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,9 @@ var connectionString = builder.Configuration.GetConnectionString("DBStringConnec
 // 2. Register AppDbContext
 builder.Services.AddDbContext<AppDBContext>(options =>
     options.UseSqlServer(connectionString));
+
+builder.Services.AddScoped<IPressureAnalysisService, PressureAnalysisService>();
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

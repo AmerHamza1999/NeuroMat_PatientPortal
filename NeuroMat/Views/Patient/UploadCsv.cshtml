@@ -1,0 +1,44 @@
+﻿@model NeuroMat.Models.Patient
+
+@{
+    ViewData["Title"] = "Upload Pressure Data";
+}
+
+<div class="container mt-4">
+
+    <h2>@Model.DisplayName</h2>
+
+    <div class="alert alert-warning mt-3">
+        <strong>No pressure data found.</strong><br />
+        Please upload a CSV file to analyse pressure information for this patient.
+    </div>
+
+    <form asp-action="UploadCsv"
+          asp-controller="Patient"
+          method="post"
+          enctype="multipart/form-data"
+          class="mt-4">
+
+        <input type="hidden" name="patientId" value="@Model.Id" />
+
+        <div class="mb-3">
+            <label class="form-label">Pressure CSV File</label>
+            <input type="file"
+                   name="csvFile"
+                   class="form-control"
+                   accept=".csv"
+                   required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            Upload CSV
+        </button>
+
+        <a asp-controller="Home"
+           asp-action="Index"
+           class="btn btn-secondary ms-2">
+            Back to Dashboard
+        </a>
+    </form>
+
+</div>

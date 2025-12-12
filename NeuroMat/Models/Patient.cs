@@ -6,15 +6,17 @@ namespace NeuroMat.Models
     {
         [Key]
         public Guid Id { get; set; }
-        public string DisplayName { get; set; }
-        public string Notes { get; set; }
 
+        [Required(ErrorMessage = "Patient name is required")]
+        public string DisplayName { get; set; } = string.Empty;
 
-        // optional link to Identity user if you require login for patient
-        public string UserId { get; set; }
-        public virtual User User { get; set; }
+        public string? Notes { get; set; }
 
+        // optional link to Identity user
+        public string? UserId { get; set; }
+        public virtual User? User { get; set; }
 
-        public ICollection<PressureFrame> PressureFrames { get; set; } 
+        public ICollection<PressureFrame> PressureFrames { get; set; }
+            = new List<PressureFrame>();
     }
 }
