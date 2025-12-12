@@ -3,7 +3,7 @@ using NeuroMat.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+var connectionString = builder.Configuration.GetConnectionString("DBStringConnection");
 // 2. Register AppDbContext
 builder.Services.AddDbContext<AppDBContext>(options =>
     options.UseSqlServer(connectionString));
