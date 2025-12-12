@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NeuroMat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59e31c87a3985c66f1d7417e8d5b5d025a298a4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("NeuroMat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NeuroMat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
