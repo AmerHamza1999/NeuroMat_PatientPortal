@@ -15,7 +15,6 @@ namespace NeuroMat.Models
         public virtual User User { get; set; }
 
 
-        public ICollection<PressureFrame> PressureFrames { get; set; }
-        public ICollection<Comment> Comments { get; set; }
+        public ICollection<PressureFrame> PressureFrames { get; set; } 
     }
 }

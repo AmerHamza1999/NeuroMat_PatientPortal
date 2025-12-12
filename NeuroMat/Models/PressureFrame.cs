@@ -23,9 +23,6 @@ namespace NeuroMat.Models
 
 
         public bool HasAlert { get; set; }
-        public string AlertReason { get; set; }
-
-
-        public ICollection<Comment> Comments { get; set; }
+        public string AlertReason { get; set; } 
     }
 }

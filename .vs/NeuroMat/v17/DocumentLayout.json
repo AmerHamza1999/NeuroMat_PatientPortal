@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212220625_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NeuroMat\\Migrations\\20251212220625_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212215604_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NeuroMat\\Migrations\\20251212215604_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\models\\pressureframe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,31 +27,24 @@
       "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212215215_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NeuroMat\\Migrations\\20251212215215_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212215044_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NeuroMat\\Migrations\\20251212215044_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212214735_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NeuroMat\\Migrations\\20251212214735_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|c:\\users\\hamza\\onedrive\\desktop\\.net web app\\neuromat\\neuromat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{715A94C3-23B5-43B6-BC1E-148247F8B72D}|NeuroMat\\NeuroMat.csproj|solutionrelative:neuromat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza\\OneDrive\\Desktop\\ARU Trimester 4\\Software Engineering\\NeuroMat-\\NeuroMat-Patient-Portal\\AH\\Models\\Patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,153 +54,153 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20251212220625_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212220625_InitialCreate.cs",
+              "RelativeDocumentMoniker": "NeuroMat\\Migrations\\20251212220625_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212220625_InitialCreate.cs",
+              "RelativeToolTip": "NeuroMat\\Migrations\\20251212220625_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T22:06:26.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\appsettings.json",
+              "RelativeDocumentMoniker": "NeuroMat\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\appsettings.json",
+              "RelativeToolTip": "NeuroMat\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-12T21:22:23.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20251212215604_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212215604_InitialCreate.cs",
+              "RelativeDocumentMoniker": "NeuroMat\\Migrations\\20251212215604_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212215604_InitialCreate.cs",
+              "RelativeToolTip": "NeuroMat\\Migrations\\20251212215604_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T21:56:04.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "NeuroMat\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "NeuroMat\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T21:54:31.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PressureFrame.cs",
+              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\PressureFrame.cs",
+              "RelativeDocumentMoniker": "NeuroMat\\Models\\PressureFrame.cs",
+              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\PressureFrame.cs",
+              "RelativeToolTip": "NeuroMat\\Models\\PressureFrame.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIA3wBkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T21:54:20.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "NeuroMat\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\Patient.cs",
+              "RelativeToolTip": "NeuroMat\\Models\\Patient.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAEwA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T21:54:12.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20251212215215_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212215215_InitialCreate.cs",
+              "RelativeDocumentMoniker": "NeuroMat\\Migrations\\20251212215215_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212215215_InitialCreate.cs",
+              "RelativeToolTip": "NeuroMat\\Migrations\\20251212215215_InitialCreate.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T21:52:15.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20251212215044_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212215044_InitialCreate.cs",
+              "RelativeDocumentMoniker": "NeuroMat\\Migrations\\20251212215044_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212215044_InitialCreate.cs",
+              "RelativeToolTip": "NeuroMat\\Migrations\\20251212215044_InitialCreate.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIApwAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T21:50:45.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "NeuroMat\\Data\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "NeuroMat\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAMAAADAmZmZmRkQwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T21:49:44.654Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "NeuroMat\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "NeuroMat\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:43:14.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PressureFrame.cs",
-              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\PressureFrame.cs",
-              "RelativeDocumentMoniker": "NeuroMat\\Models\\PressureFrame.cs",
-              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\PressureFrame.cs",
-              "RelativeToolTip": "NeuroMat\\Models\\PressureFrame.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvwkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:36:10.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "NeuroMat\\Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\Patient.cs",
-              "RelativeToolTip": "NeuroMat\\Models\\Patient.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:35:22.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\User.cs",
-              "RelativeDocumentMoniker": "NeuroMat\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\User.cs",
-              "RelativeToolTip": "NeuroMat\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:34:05.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Data\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "NeuroMat\\Data\\AppDBContext.cs",
-              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Data\\AppDBContext.cs",
-              "RelativeToolTip": "NeuroMat\\Data\\AppDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T05:03:12.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\Comment.cs",
-              "RelativeDocumentMoniker": "NeuroMat\\Models\\Comment.cs",
-              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\Comment.cs",
-              "RelativeToolTip": "NeuroMat\\Models\\Comment.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:37:19.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Alert.cs",
-              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\Alert.cs",
-              "RelativeDocumentMoniker": "NeuroMat\\Models\\Alert.cs",
-              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Models\\Alert.cs",
-              "RelativeToolTip": "NeuroMat\\Models\\Alert.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:39:21.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "NeuroMat\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "NeuroMat\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:40:10.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\appsettings.json",
-              "RelativeDocumentMoniker": "NeuroMat\\appsettings.json",
-              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\appsettings.json",
-              "RelativeToolTip": "NeuroMat\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-12T05:18:32.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Program.cs",
-              "RelativeDocumentMoniker": "NeuroMat\\Program.cs",
-              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Program.cs",
-              "RelativeToolTip": "NeuroMat\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABUAAAAAAAAAA==",
+              "Title": "20251212214735_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212214735_InitialCreate.cs",
+              "RelativeDocumentMoniker": "NeuroMat\\Migrations\\20251212214735_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Migrations\\20251212214735_InitialCreate.cs",
+              "RelativeToolTip": "NeuroMat\\Migrations\\20251212214735_InitialCreate.cs",
+              "ViewState": "AgIAACUAAADAMzMzM/MuwAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T05:17:35.541Z",
+              "WhenOpened": "2025-12-12T21:47:35.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\ARU Trimester 4\\Software Engineering\\NeuroMat-\\NeuroMat-Patient-Portal\\AH\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "..\\..\\ARU Trimester 4\\Software Engineering\\NeuroMat-\\NeuroMat-Patient-Portal\\AH\\Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\ARU Trimester 4\\Software Engineering\\NeuroMat-\\NeuroMat-Patient-Portal\\AH\\Models\\Patient.cs",
-              "RelativeToolTip": "..\\..\\ARU Trimester 4\\Software Engineering\\NeuroMat-\\NeuroMat-Patient-Portal\\AH\\Models\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Program.cs",
+              "RelativeDocumentMoniker": "NeuroMat\\Program.cs",
+              "ToolTip": "C:\\Users\\Hamza\\OneDrive\\Desktop\\.net web app\\NeuroMat\\NeuroMat\\Program.cs",
+              "RelativeToolTip": "NeuroMat\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T05:09:44.803Z",
+              "WhenOpened": "2025-12-12T05:17:35.541Z",
               "EditorCaption": ""
             }
           ]
