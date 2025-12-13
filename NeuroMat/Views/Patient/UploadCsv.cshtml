@@ -13,11 +13,14 @@
         Please upload a CSV file to analyse pressure information for this patient.
     </div>
 
+    <!-- 🔴 enctype IS REQUIRED -->
     <form asp-action="UploadCsv"
           asp-controller="Patient"
           method="post"
           enctype="multipart/form-data"
           class="mt-4">
+
+        @Html.AntiForgeryToken()
 
         <input type="hidden" name="patientId" value="@Model.Id" />
 
@@ -39,6 +42,7 @@
            class="btn btn-secondary ms-2">
             Back to Dashboard
         </a>
+
     </form>
 
 </div>

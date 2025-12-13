@@ -4,68 +4,140 @@
     ViewData["Title"] = "Dashboard";
 }
 
-<div class="container mt-4">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Header -->
-    <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2>Patient Dashboard</h2>
+<style>
+    body {
+        background-color: #fbfdfc;
+    }
 
-        <a asp-controller="Patient"
-           asp-action="Create"
-           class="btn btn-success">
-            + Add Patient
-        </a>
+    .hospital-hero {
+        background-image: url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3');
+        background-size: cover;
+        background-position: center;
+        min-height: 300px;
+        border-radius: 0;
+    }
+
+        .hospital-hero .overlay {
+            background: linear-gradient(rgba(0,90,90,0.8), rgba(0,90,90,0.8));
+            width: 100%;
+            height: 100%;
+            padding: 4rem 3rem;
+        }
+
+    .patient-card {
+        border-radius: 18px;
+        border: 1px solid #e6f2f2;
+        background: #ffffff;
+        transition: all .2s ease;
+    }
+
+        .patient-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 14px 28px rgba(0,0,0,.08);
+        }
+
+        .patient-card .card-body {
+            padding: 1.75rem;
+        }
+
+        .patient-card h5 {
+            font-size: 1.25rem;
+        }
+
+        .patient-card p {
+            font-size: .95rem;
+        }
+
+    .delete-btn {
+        width: 38px;
+        height: 38px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .patient-section {
+        padding-bottom: 4rem;
+    }
+</style>
+
+<div class="container-fluid px-0 mt-4">
+
+    <div class="hospital-hero mb-5">
+        <div class="overlay text-white">
+            <h1 class="display-5 fw-bold">Patient Dashboard</h1>
+
+            <p class="lead text-white-50 col-md-8">
+                Manage patients, upload pressure data, and monitor real-time
+                pressure analysis in a clinical environment.
+            </p>
+
+            <a asp-controller="Patient"
+               asp-action="Create"
+               class="btn btn-success btn-lg mt-3">
+                + Add Patient
+            </a>
+        </div>
     </div>
 
-    <!-- No Patient Case -->
-    @if (Model == null || !Model.Any())
-    {
-        <div class="alert alert-info text-center">
-            <h5>No patient data found</h5>
-            <p>Please create a patient to begin.</p>
-        </div>
-    }
-    else
-    {
-        <!-- Patient Cards -->
-        <div class="row">
-            @foreach (var patient in Model)
-            {
-                <div class="col-md-4 mb-4">
-                    <div class="card shadow-sm h-100">
+    <div class="container patient-section">
+        <h4 class="fw-bold mb-4">Patient List</h4>
 
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                @patient.DisplayName
-                            </h5>
+        @if (Model == null || !Model.Any())
+        {
+            <div class="alert alert-info text-center">
+                <h5>No patient data found</h5>
+                <p>Please add a patient to begin monitoring.</p>
+            </div>
+        }
+        else
+        {
+            <div class="row g-4">
 
-                            @if (!string.IsNullOrWhiteSpace(patient.Notes))
-                            {
-                                <p class="card-text text-muted">
-                                    @patient.Notes
-                                </p>
-                            }
-                            else
-                            {
-                                <p class="card-text text-muted">
-                                    No notes available.
-                                </p>
-                            }
+                @foreach (var patient in Model)
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card patient-card h-100 position-relative">
+
+                            <form asp-controller="Patient"
+                                  asp-action="Delete"
+                                  method="post"
+                                  class="position-absolute top-0 end-0 m-3">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@patient.Id" />
+                                <button type="submit"
+                                        class="btn btn-light border-danger text-danger delete-btn"
+                                        onclick="return confirm('Are you sure you want to delete this patient?')">
+                                    🗑
+                                </button>
+                            </form>
+
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="fw-bold mb-2">@patient.DisplayName</h5>
+
+                                <p class="text-muted flex-grow-1">
+                                    @(string.IsNullOrWhiteSpace(patient.Notes)
+                                                                ? "No notes available."
+                                                                : patient.Notes)
+                        </p>
+
+                                <a asp-controller="Patient"
+                                   asp-action="Details"
+                                   asp-route-id="@patient.Id"
+                                   class="btn btn-primary w-100 mt-3">
+                                    View Patient
+                                </a>
+                            </div>
+
                         </div>
-
-                        <div class="card-footer bg-white border-0">
-                            <a asp-controller="Patient"
-                               asp-action="Details"
-                               asp-route-id="@patient.Id"
-                               class="btn btn-primary w-100">
-                                View Patient
-                            </a>
-                        </div>
-
                     </div>
-                </div>
-            }
-        </div>
-    }
+                        }
+
+            </div>
+        }
+    </div>
 
 </div>
